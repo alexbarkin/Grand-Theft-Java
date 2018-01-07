@@ -1,0 +1,298 @@
+*** FATAL INTERNAL ERROR in "Ready" ***
+Date: Oct 20 2014 12:19 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: Oct 7 2003 6:57 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Previous Operations:
+    Create File (W1) - Name: C:\Users\alex barkin\Desktop\AlexCreation\MyCreation.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+    Open File (1) - Window: d032c - Name: C:\Users\alex barkin\Desktop\AlexCreation\MyCreation.java
+    Set New Text (1) - Text: 2da018 - size: 3247
+    Set New Text (2) - sz:153:3472 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 150:3399 151:3445 152:3451 153:3472
+    Open File (2) - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: d032c - Ex: 1 - Args: 0 - Step: 0
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling MyCreation
+    Recompile IntroductionPic.java - IntroductionPic.java newer than IntroductionPic.class
+    Recompile Transition.java - Transition.java newer than Transition.class
+    Don't compile Introduction.java - Introduction.java older than Introduction.class
+    Recompile SceneOne.java - SceneOne.java newer than SceneOne.class
+    Recompile SceneTwo.java - SceneTwo.java newer than SceneTwo.class
+    Don't compile BuggattiTop.java - BuggattiTop.java older than BuggattiTop.class
+    Recompile HarleyTop.java - HarleyTop.java newer than HarleyTop.class
+    Recompile TextBubbles.java - TextBubbles.java newer than TextBubbles.class
+    Don't compile TruckTop.java - TruckTop.java older than TruckTop.class
+    Recompile HarleySide.java - HarleySide.java newer than HarleySide.class
+    Don't compile BuggattiSide.java - BuggattiSide.java older than BuggattiSide.class
+    Don't compile Chicken.java - Chicken.java older than Chicken.class
+    Jikes compiling IntroductionPic
+    Jikes compiling Transition
+    Jikes compiling SceneOne
+    Jikes compiling SceneTwo
+    Jikes compiling HarleyTop
+    Jikes compiling TextBubbles
+    Jikes compiling HarleySide
+    Command to Java Supervisor - "-java "C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll" -cp ".;C:\Program Files (x86)\Ready to Program\Support\Ready Classes;C:\Program Files (x86)\Ready to Program\Support\Classes;C:\Program Files (x86)\Ready to Program\Support\Ready Classes\tools.jar;" -class MyCreation -props F 25 80 10 "Courier New" 2 F 0 F 8 8 0 F T"
+    JavaSup: -pipe 400 412 332 2032204
+    JavaSup: JVM Option: "-Djava.class.path=.;C:\Program Files (x86)\Ready to Program\Support\Ready Classes;C:\Program Files (x86)\Ready to Program\Support\Classes;C:\Program Files (x86)\Ready to Program\Support\Ready Classes\tools.jar;"
+    JavaSup: JVM Option: "-Djava.library.path=C:\Program Files (x86)\Ready to Program\Support\Bin"
+    JavaSup: JVM Option: "-enableassertions"
+    JavaSup: JVM Option: "-Xdebug"
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+    Create File (W1) - Name: C:\Users\alex barkin\Desktop\AlexCreation\TruckTop.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 10338 - Name: C:\Users\alex barkin\Desktop\AlexCreation\TruckTop.java
+    Set New Text (1) - Text: 7e7f188 - size: 1249
+    Set New Text (2) - sz:55:1446 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 52:1419 53:1438 54:1444 55:1446
+    Open File (2) - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+
+
+
+The environment has experienced an unexpected internal error.
+
+This error is caused by a bug in the environment and is not your fault!
+Details about the crash have been saved in the file "C:\Users\alex barkin\Desktop\AlexCreation\panic.log".
+
+If possible, please e-mail this file to readybugs@hsa.on.ca
+
+Here are some details about the error:
+   Error = No record of this window being open (6025)
+   File = src\ed.c
+   Line = 1232
+
+All unsaved open files will be saved with a ".sav" or ".sv#" extension.
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\SYSTEM32\KERNEL32.DLL
+    C:\Windows\SYSTEM32\KERNELBASE.dll
+    C:\Windows\SYSTEM32\USER32.dll
+    C:\Windows\SYSTEM32\GDI32.dll
+    C:\Windows\SYSTEM32\comdlg32.dll
+    C:\Windows\SYSTEM32\ADVAPI32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.9600.16384_none_7c55c866aa0c3ff0\COMCTL32.dll
+    C:\Windows\SYSTEM32\SHELL32.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\msvcrt.dll
+    C:\Windows\SYSTEM32\SHLWAPI.dll
+    C:\Windows\SYSTEM32\sechost.dll
+    C:\Windows\SYSTEM32\RPCRT4.dll
+    C:\Windows\SYSTEM32\combase.dll
+    C:\Windows\SYSTEM32\WINMMBASE.dll
+    C:\Windows\SYSTEM32\SspiCli.dll
+    C:\Windows\SYSTEM32\cfgmgr32.dll
+    C:\Windows\SYSTEM32\DEVOBJ.dll
+    C:\Windows\SYSTEM32\SHCORE.DLL
+    C:\Windows\SYSTEM32\CRYPTBASE.dll
+    C:\Windows\SYSTEM32\bcryptPrimitives.dll
+    C:\Windows\system32\IMM32.DLL
+    C:\Windows\SYSTEM32\MSCTF.dll
+    C:\Windows\system32\uxtheme.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\Windows\system32\apphelp.dll
+    C:\Windows\system32\ole32.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\Windows\system32\dwmapi.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_a9efdb8b01377ea7\comctl32.DLL
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\Windows\SYSTEM32\WS2_32.dll
+    C:\Windows\SYSTEM32\NSI.dll
+    C:\Windows\system32\napinsp.dll
+    C:\Windows\system32\pnrpnsp.dll
+    C:\Windows\system32\NLAapi.dll
+    C:\Windows\System32\mswsock.dll
+    C:\Windows\SYSTEM32\DNSAPI.dll
+    C:\Windows\System32\winrnr.dll
+    C:\Windows\system32\wshbth.dll
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL
+    C:\Windows\SYSTEM32\WINNSI.DLL
+    C:\Windows\System32\fwpuclnt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:7735a53c Ret=74ff1055 Frame=0018b15c Stack=0018b0f0
+    Parameters (0x0018b134 0x00003a98 0x00000000 0x0018da18)
+    Unknown module, NtWaitForSingleObject() + 0012 byte(s)
+  1 .V PC=0023:74ff1055 Ret=004162f5 Frame=0018b170 Stack=0018b164
+    Parameters (0x00000568 0x00003a98 0x001f024c 0x00448681)
+    Unknown module, WaitForSingleObject() + 0018 byte(s)
+  2 .V PC=0023:004162f5 Ret=00415768 Frame=0018da18 Stack=0018b178
+    Parameters (0x00000001 0x00001789 0x0058d374 0x000004d0)
+    src\edfail.c, MyFailErrorBox (), Line 0987+0020 byte(s)
+  3 .V PC=0023:00415768 Ret=004024f6 Frame=0018da40 Stack=0018da20
+    Parameters (0x00001789 0x0058d374 0x000004d0 0x00000000)
+    src\edfail.c, EdFail_Fatal (), Line 0494+0027 byte(s)
+  4 .V PC=0023:004024f6 Ret=00448921 Frame=0018da5c Stack=0018da48
+    Parameters (0x000f0252 0x00000001 0x00448681 0x00000005)
+    src\ed.c, Ed_SetActiveWindow (), Line 1232+0022 byte(s)
+  5 .V PC=0023:00448921 Ret=76fb7834 Frame=0018da8c Stack=0018da64
+    Parameters (0x000f0252 0x00000006 0x00000001 0x001f024c)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1464+0011 byte(s)
+  6 .V PC=0023:76fb7834 Ret=76fb7a9a Frame=0018dab8 Stack=0018da94
+    Parameters (0x00448681 0x000f0252 0x00000006 0x00000001)
+    Unknown module, CallNextHookEx() + 0151 byte(s)
+  7 .V PC=0023:76fb7a9a Ret=76fb7bed Frame=0018db48 Stack=0018dac0
+    Parameters (0x00448681 0x00000000 0x00000006 0x00000001)
+    Unknown module, CallNextHookEx() + 0765 byte(s)
+  8 .V PC=0023:76fb7bed Ret=76fb7d81 Frame=0018dba8 Stack=0018db50
+    Parameters (0x00bb70f0 0x00000000 0x00000006 0x00000001)
+    Unknown module, CallNextHookEx() + 1104 byte(s)
+  9 .V PC=0023:76fb7d81 Ret=7735c692 Frame=0018dbe0 Stack=0018dbb0
+    Parameters (0x0018dbf8 0x00000000 0x0018dcf4 0x7735c5f0)
+    Unknown module, CallNextHookEx() + 1508 byte(s)
+ 10 .V PC=0023:7735c692 Ret=76fbe5e3 Frame=0018dca0 Stack=0018dbe8
+    Parameters (0x00bc9a60 0x00000000 0x00000000 0x00000001)
+    Unknown module, KiUserCallbackDispatcher() + 0046 byte(s)
+ 11 .V PC=0023:76fbe5e3 Ret=76fbe6c5 Frame=0018dcbc Stack=0018dca8
+    Parameters (0x001f024c 0x00000010 0x00000000 0x00000000)
+    Unknown module, PostMessageA() + 0176 byte(s)
+ 12 .V PC=0023:76fbe6c5 Ret=00448b96 Frame=0018dd04 Stack=0018dcc4
+    Parameters (0x001f024c 0x00000010 0x00000000 0x00000000)
+    Unknown module, PostMessageA() + 0402 byte(s)
+ 13 .V PC=0023:00448b96 Ret=76fb7834 Frame=0018dd3c Stack=0018dd0c
+    Parameters (0x001f024c 0x00000010 0x00000000 0x00000000)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1568+0024 byte(s)
+ 14 .V PC=0023:76fb7834 Ret=76fb7a9a Frame=0018dd68 Stack=0018dd44
+    Parameters (0x00448681 0x001f024c 0x00000010 0x00000000)
+    Unknown module, CallNextHookEx() + 0151 byte(s)
+ 15 .V PC=0023:76fb7a9a Ret=76fb7bed Frame=0018ddf8 Stack=0018dd70
+    Parameters (0x00448681 0x00000000 0x00000010 0x00000000)
+    Unknown module, CallNextHookEx() + 0765 byte(s)
+ 16 .V PC=0023:76fb7bed Ret=76fb7d81 Frame=0018de58 Stack=0018de00
+    Parameters (0x00bc9a60 0x00000000 0x00000010 0x00000000)
+    Unknown module, CallNextHookEx() + 1104 byte(s)
+ 17 .V PC=0023:76fb7d81 Ret=7735c692 Frame=0018de90 Stack=0018de60
+    Parameters (0x0018dea8 0x00000000 0x0018e0ec 0x7735c5f0)
+    Unknown module, CallNextHookEx() + 1508 byte(s)
+ 18 .V PC=0023:7735c692 Ret=76fbe5e3 Frame=0018df50 Stack=0018de98
+    Parameters (0x00bc9a60 0x00000000 0x000b0279 0x00000001)
+    Unknown module, KiUserCallbackDispatcher() + 0046 byte(s)
+ 19 .V PC=0023:76fbe5e3 Ret=74391814 Frame=0018df6c Stack=0018df58
+    Parameters (0x001f024c 0x00000112 0x0000f060 0x000b0279)
+    Unknown module, PostMessageA() + 0176 byte(s)
+ 20 .V PC=0023:74391814 Ret=743917aa Frame=0018df8c Stack=0018df74
+    Parameters (0x02285a78 0x0018e034 0x00000112 0x00000001)
+    Unknown module
+ 21 .V PC=0023:743917aa Ret=74399b9a Frame=0018e0a0 Stack=0018df94
+    Parameters (0x0000f060 0x000b0279 0x00000000 0x0018e0fc)
+    Unknown module
+ 22 .V PC=0023:74399b9a Ret=76fbe72b Frame=0018e0b4 Stack=0018e0a8
+    Parameters (0x001f024c 0x00000112 0x0000f060 0x000b0279)
+    Unknown module, Ordinal45() + 7999 byte(s)
+ 23 .V PC=0023:76fbe72b Ret=00448b96 Frame=0018e0fc Stack=0018e0bc
+    Parameters (0x001f024c 0x00000112 0x0000f060 0x000b0279)
+    Unknown module, PostMessageA() + 0504 byte(s)
+ 24 .V PC=0023:00448b96 Ret=76fb7834 Frame=0018e134 Stack=0018e104
+    Parameters (0x001f024c 0x00000112 0x0000f060 0x000b0279)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1568+0024 byte(s)
+ 25 .V PC=0023:76fb7834 Ret=76fb930f Frame=0018e160 Stack=0018e13c
+    Parameters (0x00448681 0x001f024c 0x00000112 0x0000f060)
+    Unknown module, CallNextHookEx() + 0151 byte(s)
+ 26 .V PC=0023:76fb930f Ret=76fb7bed Frame=0018e1f0 Stack=0018e168
+    Parameters (0x00448681 0x00000000 0x00000112 0x0000f060)
+    Unknown module, GetWindowThreadProcessId() + 0997 byte(s)
+ 27 .V PC=0023:76fb7bed Ret=76fb7d81 Frame=0018e250 Stack=0018e1f8
+    Parameters (0x00bc9a60 0x00000000 0x00000112 0x0000f060)
+    Unknown module, CallNextHookEx() + 1104 byte(s)
+ 28 .V PC=0023:76fb7d81 Ret=7735c692 Frame=0018e288 Stack=0018e258
+    Parameters (0x0018e2a0 0x00000000 0x0018e4ec 0x7735c5f0)
+    Unknown module, CallNextHookEx() + 1508 byte(s)
+ 29 .V PC=0023:7735c692 Ret=76fbe5e3 Frame=0018e348 Stack=0018e290
+    Parameters (0x00bc9a60 0x00000000 0x000b0279 0x00000001)
+    Unknown module, KiUserCallbackDispatcher() + 0046 byte(s)
+ 30 .V PC=0023:76fbe5e3 Ret=74391814 Frame=0018e360 Stack=0018e350
+    Parameters (0x001f024c 0x000000a1 0x00000014 0x000b0279)
+    Unknown module, PostMessageA() + 0176 byte(s)
+ 31 .V PC=0023:74391814 Ret=743917aa Frame=0018e38c Stack=0018e368
+    Parameters (0x02285a78 0x0018e434 0x000000a1 0x00000001)
+    Unknown module
+ 32 .V PC=0023:743917aa Ret=74399b9a Frame=0018e4a0 Stack=0018e394
+    Parameters (0x00000014 0x000b0279 0x00000000 0x0018e4fc)
+    Unknown module
+ 33 .V PC=0023:74399b9a Ret=76fbe72b Frame=0018e4b4 Stack=0018e4a8
+    Parameters (0x001f024c 0x000000a1 0x00000014 0x000b0279)
+    Unknown module, Ordinal45() + 7999 byte(s)
+ 34 .V PC=0023:76fbe72b Ret=00448b96 Frame=0018e4fc Stack=0018e4bc
+    Parameters (0x001f024c 0x000000a1 0x00000014 0x000b0279)
+    Unknown module, PostMessageA() + 0504 byte(s)
+ 35 .V PC=0023:00448b96 Ret=76fb7834 Frame=0018e534 Stack=0018e504
+    Parameters (0x001f024c 0x000000a1 0x00000014 0x000b0279)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1568+0024 byte(s)
+ 36 .V PC=0023:76fb7834 Ret=76fb7a9a Frame=0018e560 Stack=0018e53c
+    Parameters (0x00448681 0x001f024c 0x000000a1 0x00000014)
+    Unknown module, CallNextHookEx() + 0151 byte(s)
+ 37 .V PC=0023:76fb7a9a Ret=76fb988e Frame=0018e5f0 Stack=0018e568
+    Parameters (0x00448681 0x00000000 0x000000a1 0x00000014)
+    Unknown module, CallNextHookEx() + 0765 byte(s)
+ 38 .V PC=0023:76fb988e Ret=76fc8857 Frame=0018e65c Stack=0018e5f8
+    Parameters (0x0018e674 0x00403225 0x0018e684 0x0018e680)
+    Unknown module, GetMessageW() + 0816 byte(s)
+ 39 .V PC=0023:76fc8857 Ret=00403225 Frame=0018e664 Stack=0018e664
+    Parameters (0x0018e684 0x0018e680 0x0018e6a4 0x00403190)
+    Unknown module, DispatchMessageA() + 0016 byte(s)
+ 40 .V PC=0023:00403225 Ret=00403190 Frame=0018e674 Stack=0018e66c
+    Parameters (0x0018e684 0x0018e6ac 0x001f024c 0x000000a1)
+    src\ed.c, MyProcessMessage (), Line 1848+0012 byte(s)
+ 41 .V PC=0023:00403190 Ret=0040170f Frame=0018e6a4 Stack=0018e67c
+    Parameters (0x00000000 0x00000000 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1818+0009 byte(s)
+ 42 .V PC=0023:0040170f Ret=0052cc26 Frame=0018fefc Stack=0018e6ac
+    Parameters (0x00400000 0x00000000 0x008d1c6c 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 43 .V PC=0023:0052cc26 Ret=7664919f Frame=0018ff8c Stack=0018ff04
+    Parameters (0x7ffde000 0x0018ffdc 0x77370bbb 0x7ffde000)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 44 .V PC=0023:7664919f Ret=77370bbb Frame=0018ff98 Stack=0018ff94
+    Parameters (0x7ffde000 0xf43157c0 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0014 byte(s)
+ 45 .V PC=0023:77370bbb Ret=77370b91 Frame=0018ffdc Stack=0018ffa0
+    Parameters (0xffffffff 0x7735c9de 0x00000000 0x00000000)
+    Unknown module, RtlInitializeExceptionChain() + 0132 byte(s)
+ 46 .V PC=0023:77370b91 Ret=00000000 Frame=0018ffec Stack=0018ffe4
+    Parameters (0x0052cb00 0x7ffde000 0x00000000 0x78746341)
+    Unknown module, RtlInitializeExceptionChain() + 0090 byte(s)
+
+
+------------------------------------------------------
